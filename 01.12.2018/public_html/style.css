@@ -1,0 +1,70 @@
+body{
+    //background-color: grey;
+}
+header{
+    font-size: 34px;
+    background-color: #fe8;
+    font-family: monospace;
+}
+header h1{
+   font-size: 40px;
+   font-variant: small-caps;
+   font-family: serif;
+
+}
+header h2{
+    font-size: 23px;
+    font-style: italic;  
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: justify;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    background: background;   
+    border-radius: 10px; 
+}
+nav ul:after{
+    content: '';
+    width: 100%;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+  
+ 
+ 
+}
+nav ul li a:visited{
+    color: goldenrod;
+}
+nav ul li a:active{
+    font-weight: bold;
+    
+}
+nav ul li a:hover{
+    background-color: red;
+    //shadow: 5px 5px 5px redpink
+}
+section article header{
+    font-style:  oblique;
+}
+
+footer{
+    color: lightsteelblue;
+}
+section article footer{
+    color: lime;
+    font-style: italic;
+}
+
+figure img{
+    border: 1px solid black;
+    padding: 8px;
+    width: 100%;   
+}
